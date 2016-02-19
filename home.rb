@@ -1,17 +1,17 @@
-require "Sinatra"
+require "sinatra"
 
 get "/" do
 	erb :index
 end
 
-get "/skin" do
-	erb :skin
+get "/meet" do
+	erb :meet
 end
 
-get "/hair" do 
-	erb :hair
+get "/trans" do 
+	erb :trans
 end
 
-get "/nails" do
-	erb :nails
+get "/what" do
+	erb :what
 end

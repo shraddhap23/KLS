@@ -1,0 +1,42 @@
+.wrapper {
+   width:900px;
+   margin:0 auto;
+}
+.banner_wrap {
+/*	width: 1024px;*/
+}
+
+.about {
+   width: 500px;
+   float: left;
+   margin-top: 100px;
+}
+
+.main {
+   width: 300px;
+   float: right;
+   margin-top: 100px;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	background-image: url(images/banner.jpg);
+	padding-bottom: 200px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li a:link{
+     text-decoration: none;
+     margin-right: 50px;
+     padding: 0 30px;     
+}
+
+nav li {                   
+    list-style:none;                           /*removes bullets from links*/
+    display: inline-block; 
+    font-size: 20px;                    /*displays nav links horizontally*/
+}

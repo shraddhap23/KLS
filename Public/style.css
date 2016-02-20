@@ -1,24 +1,25 @@
-.wrapper {
+.wrapper {                         /* DO NOT CHANGE -- this is the wrapper for all bodies*/
    width:900px;
    margin:0 auto;
 }
-.banner_wrap {
-/*	width: 1024px;*/
+.banner_wrap {                    /* DO NOT CHANGE -- this is the wrapper for banner size*/
+	width: 1250px;
+  margin:0 auto;
 }
 
-.about {
+.about {                          /*Displays on the right side of main page. Space for "about" */
    width: 500px;
    float: left;
    margin-top: 100px;
 }
 
-.main {
+.main {                          /* Displays on left side of main page*/
    width: 300px;
    float: right;
    margin-top: 100px;
 }
 
-h1 {
+h1 {                             /* M 4 M */
 	font-size: 60px;
 	text-align: center;
 	background-image: url(images/banner.jpg);
@@ -36,7 +37,7 @@ nav li a:link{
 }
 
 nav li {                   
-    list-style:none;                           /*removes bullets from links*/
+    list-style:none;                /*Removes bullets from links*/
     display: inline-block; 
-    font-size: 20px;                    /*displays nav links horizontally*/
+    font-size: 20px;               /*Displays nav links horizontally*/
 }

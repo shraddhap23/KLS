@@ -1,26 +1,23 @@
+/*****************************************************
+GENERAL  :)
+*****************************************************/
 .wrapper {                         /* DO NOT CHANGE -- this is the wrapper for all bodies*/
    width:900px;
    margin:0 auto;
 }
-.banner_wrap {                    /* DO NOT CHANGE -- this is the wrapper for banner size*/
+
+/*.banner_wrap {                     DO NOT CHANGE -- this is the wrapper for banner size*/
 	/*width: 1880px;*/
   /*margin:0 auto;*/
+/*}*/
+
+body {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.about {                          /*Displays on the right side of main page. Space for "about" */
-   width: 500px;
-   float: left;
-   margin-top: 100px;
-}
-
-.main {                          /* Displays on left side of main page*/
-   width: 300px;
-   float: right;
-   margin-top: 100px;
-}
-
-h1 {                             /* M 4 M */
+h1 {                             /* MAKE UP 4 MEN */
 	font-size: 70px;
+  font-family: 'Lobster', cursive;
 	text-align: center;
 	background-image: url(images/test.jpg);
 	padding-bottom: 200px;
@@ -32,6 +29,15 @@ h1 {                             /* M 4 M */
   opacity: 0.7;
 }
 
+h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+p {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
 
 nav {
 	text-align: center;
@@ -47,46 +53,52 @@ nav li a:link{
 }
 
 nav li {                   
-    list-style:none;                /*Removes bullets from links*/
-    display: inline-block; 
+    list-style:none;       /*Removes bullets from links*/
+    display: inline-block;      /*Displays nav links horizontally*/
     font-size: 25px; 
-    background-color: rgba(26, 26, 26, 0.9);            /*Displays nav links horizontally*/
+    background-color: rgba(26, 26, 26, 0.9);     
 }
 
-li a {                                  /*Changes nav links color*/
-  color: white;
+li a {                                
+  color: white;      /*Changes nav links color*/
 }
 
-p {
-  font-family: 'Anton', sans-serif;
-}
-
-h3 {
-  font-family: 'Anton', sans-serif;
-}
-
-h1{
-  font-family: 'Lobster', cursive;
-}
-
-a:hover, a:visited, a:link, a:active
-{
+a:hover, a:visited, a:link, a:active {          /*Removes all links default underlines*/
     text-decoration: none;
     color: white;
-
 }
 
 footer {
   clear: both;
-  /*font-family: 'Anton', sans-serif;*/
   text-align: center;
   padding-top: 75px;
+}
+
+footer a {
+  margin:0 20px;      /*Spaces out social icons */
 }
 
 .foot {
   margin-top: 50px;
 }
 
+/*****************************************************
+Index Page css  :)
+*****************************************************/
+
+.about {                          /*Displays on the right side of main page. Space for "about" */
+   width: 500px;
+   float: left;
+   margin-top: 100px;
+}
+
+.main {                          /* Displays on left side of main page*/
+   width: 300px;
+   float: right;
+   margin-top: 100px;
+}
+
 .moveme {
   margin-top: 50px;
 }
+

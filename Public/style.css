@@ -3,8 +3,8 @@
    margin:0 auto;
 }
 .banner_wrap {                    /* DO NOT CHANGE -- this is the wrapper for banner size*/
-	width: 1250px;
-  margin:0 auto;
+	/*width: 1880px;*/
+  /*margin:0 auto;*/
 }
 
 .about {                          /*Displays on the right side of main page. Space for "about" */
@@ -20,24 +20,73 @@
 }
 
 h1 {                             /* M 4 M */
-	font-size: 60px;
+	font-size: 70px;
 	text-align: center;
-	background-image: url(images/banner.jpg);
+	background-image: url(images/test.jpg);
 	padding-bottom: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 60px;
+  opacity: 0.7;
 }
+
 
 nav {
 	text-align: center;
+  color: white;
+  margin-top: 0px;
 }
 
 nav li a:link{
-     text-decoration: none;
-     margin-right: 50px;
-     padding: 0 30px;     
+  text-decoration: none;
+  margin-right: 45px;
+  padding: 0 20px; 
+
 }
 
 nav li {                   
     list-style:none;                /*Removes bullets from links*/
     display: inline-block; 
-    font-size: 20px;               /*Displays nav links horizontally*/
+    font-size: 25px; 
+    background-color: rgba(26, 26, 26, 0.9);            /*Displays nav links horizontally*/
+}
+
+li a {                                  /*Changes nav links color*/
+  color: white;
+}
+
+p {
+  font-family: 'Anton', sans-serif;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer {
+  clear: both;
+  /*font-family: 'Anton', sans-serif;*/
+  text-align: center;
+  padding-top: 75px;
+}
+
+.foot {
+  margin-top: 50px;
+}
+
+.moveme {
+  margin-top: 50px;
 }

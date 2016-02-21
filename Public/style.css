@@ -26,13 +26,12 @@ h1 {                             /* MAKE UP 4 MEN */
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 60px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 h3 {
   font-family: 'Orbitron', sans-serif;
 }
-
 
 p {
   font-family: 'Orbitron', sans-serif;
@@ -41,8 +40,7 @@ p {
 
 nav {
 	text-align: center;
-  color: white;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 nav li a:link{
@@ -56,7 +54,11 @@ nav li {
     list-style:none;       /*Removes bullets from links*/
     display: inline-block;      /*Displays nav links horizontally*/
     font-size: 25px; 
-    background-color: rgba(26, 26, 26, 0.9);     
+    background-color: grey;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 80px;
 }
 
 li a {                                
@@ -68,18 +70,54 @@ a:hover, a:visited, a:link, a:active {          /*Removes all links default unde
     color: white;
 }
 
+a:visited {
+  color: black;
+}
+a:hover{
+  color: pink;
+}
+
+
 footer {
   clear: both;
   text-align: center;
   padding-top: 75px;
 }
 
-footer a {
-  margin:0 20px;      /*Spaces out social icons */
-}
-
 .foot {
   margin-top: 50px;
+  color: grey;
+}
+
+/*****************************************************
+Social Icons css  :)
+*****************************************************/
+
+footer a {
+  margin:0 20px;
+  background-color: white;
+  padding-top: 16px;      /*Spaces out social icons */
+}
+
+.facebook:hover{
+    background-color: rgba(179, 255, 217,0.8);
+    padding-top: 16px;
+}
+.instagram:hover {
+    background-color: rgba(102, 255, 255,0.5);
+    padding-top: 16px;
+}
+.youtube:hover {
+    background-color: rgba(255, 255, 102, 0.9);
+    padding-top: 16px;
+}
+.linkedin:hover {
+    background-color: rgba(255, 0, 255,0.5);
+    padding-top: 16px;
+}
+.twitter:hover {
+    background-color: rgba(255, 163, 26,0.8);
+    padding-top: 16px;
 }
 
 /*****************************************************
@@ -102,3 +140,30 @@ Index Page css  :)
   margin-top: 50px;
 }
 
+
+/*****************************************************
+Transformations Page css  :)
+*****************************************************/
+
+#slide_me {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background-image: url(images/born.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h4 {
+  color: hotpink;
+  font-size: 35px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h5 { 
+  color: hotpink;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+}  

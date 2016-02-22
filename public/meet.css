@@ -1,0 +1,5 @@
+#lizimage
+#lizimage:hover ;
+
+#yourimage { background: url(../YourBlackAndWhiteImage.png);}
+#yourImage:hover { background: url(../YourColoredImage.png};}

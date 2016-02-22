@@ -162,6 +162,12 @@ h4 {
   font-family: 'Orbitron', sans-serif;
 }
 
+nav li {                   
+    list-style:none;                           /*removes bullets from links*/
+    display: inline-block; 
+    font-size: 20px;                    /*displays nav links horizontally*/
+}
+
 h5 { 
   color: hotpink;
   font-size: 16px;

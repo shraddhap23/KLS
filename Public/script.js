@@ -31,6 +31,31 @@ $('.hello3').hover(function() {
   	  $('h5').show(1000).delay(10000).fadeOut(3500);
 });
 
+$('h6').hide(200);
+
+$('.Liz').hover(function() {
+  	  $('h6').show(1000);
+});
+
+$('h7').hide(200);
+
+$('.Karen').hover(function() {
+  	  $('h7').show(1000);
+});
+
+$('h8').hide(200);
+
+$('.Shrads').hover(function() {
+  	  $('h8').show(1000);
+});
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,19 @@
+header {
+  margin-left: 25px;
+  font-size: 100px;
+  font-style: italic;
+  position: fixed;
+  float: left;
+  color: pink;
+}
+
+#parone {
+  width: 400px;
+  float: right;
+  margin-right: 250px;
+}
+
+#box {
+  margin-left: 700px;
+  
+}

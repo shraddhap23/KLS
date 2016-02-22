@@ -1,48 +1,93 @@
 <h2>MEET THE TEAM</h2>
 
-<style>
+<head>
+	<style>
 
-	img {
-		border-radius: 50%;
-		-webkit-filter: grayscale(100%);
-		position: inline-block;
-	}
+		img {
+			border-radius: 50%;
+			-webkit-filter: grayscale(100%);
+			position: inline-block;
+		}
 
-	img:hover {
-		-webkit-filter: none;
-		-webkit-transform: scale(1.1);
-	}
+		img:hover {
+			-webkit-filter: none;
+			-webkit-transform: scale(1.1);
+		}
+		
+		.Liz {
+		  float: left;
+		  height: 500px;
+		  width: 500px;
+		  position: relative;
+		}
+		
+		.lizimg {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
 
-	.Liz {
-        float: left;
-	}
+		.text {
+			z-index: 100;
+			position: absolute;
+			color: white;
+			font-size: 25px;
+			font-weight: bold;
+			left: 70px;
+			top: 70px;
+			width: 250px;
+			color: red;
+		}
 	
-	.Karen {
-		/*position: inline-block;*/
-		float: right;
-	}
+		.Karen {
+/*			position: inline-block;*/
+			float: right;
+			height: 500px;
+		  width: 500px;
+		  position: relative;
+		}
 
-	.Shrads {
-         float: left;
-         margin-left: 250px;
-	}
+		.karenimg {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
 
-</style>
+		.Shrads {
+	    float: left;
+	    margin-left: 75px; 
+	    height: 500px;
+		  width: 500px;
+		  position: relative;
+		  margin-top: 65px;
+		}
 
+		.shradsimg {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+	</style>
+</head>
 
 <div class = "wrapper"> <!--wrapper-->
 
 	<div class = "Liz">
-		<img src="images/liz.jpg" width="400px" height="400px">
+		<img src="images/sofia.jpg" class="lizimg" width="400px" height="400px">
+			<p class="text">"Hi, I'm Liz. I play with makeup all day and am going to be the one to teach you all sorts of tricks to turn you into the best version of yourself!"</p>
 	</div>
 
 	<div class = "Karen">
-		<img src="images/jlo.jpg" width="400px" height="400px">
+		<img src="images/jlo.jpg" class="karenimg" width="400px" height="400px">
+			<p class="text">"Hi, I'm Karen. I'm the in house hair stylist. With 15 years experience I am well versed in knowing what my clients need and want."</p>
 	</div>
 
 	<div class = "Shrads">
-		<img src="images/mia.jpg" width="400px" height="400px">
+		<img src="images/mia.jpg" class="shradsimg" width="400px" height="400px">
+			<p class="text">"Hi, I'm Shraddha. I founded the company way back in the day. These days, I oversee everything to make sure our clients have the best experience possible."</p>
 	</div>
 
 </div> 
+
 

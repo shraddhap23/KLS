@@ -1,19 +1,41 @@
 header {
   margin-left: 25px;
+  margin-top: 50px;
   font-size: 100px;
   font-style: italic;
-  position: fixed;
-  float: left;
+/*  position: relative
+  float: left;*/
   color: pink;
 }
 
-#parone {
+p {
   width: 400px;
   float: right;
   margin-right: 250px;
+  margin-top: 50px;
+  color: black;
+}
+
+b {
+  color: pink;
 }
 
 #box {
   margin-left: 700px;
   
+}
+
+#box {
+  margin-top: 2px;
+}
+
+#picone {
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+/*  margin-bottom: 250px;*/
+}
+
+#picone.hover {
+
 }

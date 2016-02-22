@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<title>KLS</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
-	<script>src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"</script>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <head><a href="http://localhost:4567/">
-    <h1>M 4 M</h1>
-    <nav>
-      <ul>
-        <li><a href= "what">What We Do</a></li>
-        <li><a href= "trans">Transformations</a></li>
-        <li><a href= "meet">Meet the Team</a></li>
-      </ul>
-    </nav>
-  </a></head>
+   <div class="banner_wrap ">
+     <head><a href="http://localhost:4567/">
+       <h1>Make up 4 Men</h1>
+         <nav>
+           <ul>
+              <li><a href= "what">What We Do</a></li>
+              <li><a href= "trans">Transformations</a></li>
+              <li><a href= "meet">Meet the Team</a></li>
+          </ul>
+        </nav>
+     </a></head>
 <%= yield %>
-</body>
 
-</html> 
+      <footer>
+            <a href="https://www.facebook.com" class="facebook"><img src = "images/facebook_logo.png" width = 30px;></a>
+            <a href="https://www.instagram.com" class="instagram"><img src = "images/instagram_logo.png" width = 30px;></a>
+            <a href="https://www.youtube.com" class="youtube"><img src = "images/youtube_logo.png" width = 30px;></a>
+            <a href="https://www.linkedin.com" class="linkedin"><img src = "images/linkedin_logo.png" width = 30px;></a>
+            <a href="https://www.twitter.com" class="twitter"><img src = "images/twitter_logo.png" width = 30px;></a>
+          <div class="foot">All rights reserved &copy</div>
+      </footer>
+    </div> <!-- closing banner wrap-->
+  </body>
+</html>

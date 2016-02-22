@@ -1,38 +1,165 @@
-.wrapper {
+/*****************************************************
+GENERAL  :)
+*****************************************************/
+.wrapper {                         /* DO NOT CHANGE -- this is the wrapper for all bodies*/
    width:900px;
    margin:0 auto;
 }
-.banner_wrap {
-/*	width: 1024px;*/
+
+/*.banner_wrap {                     DO NOT CHANGE -- this is the wrapper for banner size*/
+	/*width: 1880px;*/
+  /*margin:0 auto;*/
+/*}*/
+
+body {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.about {
+h1 {                             /* MAKE UP 4 MEN */
+	font-size: 70px;
+  font-family: 'Lobster', cursive;
+	text-align: center;
+	background-image: url(images/test.jpg);
+	padding-bottom: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 60px;
+  opacity: 0.9;
+}
+
+h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+p {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+nav {
+	text-align: center;
+  margin-top: 30px;
+}
+
+nav li a:link{
+  text-decoration: none;
+  margin-right: 45px;
+  padding: 0 20px; 
+
+}
+
+nav li {                   
+    list-style:none;       /*Removes bullets from links*/
+    display: inline-block;      /*Displays nav links horizontally*/
+    font-size: 25px; 
+    background-color: grey;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 80px;
+}
+
+li a {                                
+  color: white;      /*Changes nav links color*/
+}
+
+a:hover, a:visited, a:link, a:active {          /*Removes all links default underlines*/
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+  color: black;
+}
+a:hover{
+  color: pink;
+}
+
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.foot {
+  margin-top: 50px;
+  color: grey;
+}
+
+/*****************************************************
+Social Icons css  :)
+*****************************************************/
+
+footer a {
+  margin:0 20px;
+  background-color: white;
+  padding-top: 16px;      /*Spaces out social icons */
+}
+
+.facebook:hover{
+    background-color: rgba(179, 255, 217,0.8);
+    padding-top: 16px;
+}
+.instagram:hover {
+    background-color: rgba(102, 255, 255,0.5);
+    padding-top: 16px;
+}
+.youtube:hover {
+    background-color: rgba(255, 255, 102, 0.9);
+    padding-top: 16px;
+}
+.linkedin:hover {
+    background-color: rgba(255, 0, 255,0.5);
+    padding-top: 16px;
+}
+.twitter:hover {
+    background-color: rgba(255, 163, 26,0.8);
+    padding-top: 16px;
+}
+
+/*****************************************************
+Index Page css  :)
+*****************************************************/
+
+.about {                          /*Displays on the right side of main page. Space for "about" */
    width: 500px;
    float: left;
    margin-top: 100px;
 }
 
-.main {
+.main {                          /* Displays on left side of main page*/
    width: 300px;
    float: right;
    margin-top: 100px;
 }
 
-h1 {
-	font-size: 60px;
-	text-align: center;
-	background-image: url(images/banner.jpg);
-	padding-bottom: 200px;
+.moveme {
+  margin-top: 50px;
 }
 
-nav {
-	text-align: center;
+
+/*****************************************************
+Transformations Page css  :)
+*****************************************************/
+
+#slide_me {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background-image: url(images/born.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-nav li a:link{
-     text-decoration: none;
-     margin-right: 50px;
-     padding: 0 30px;     
+h4 {
+  color: hotpink;
+  font-size: 35px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 nav li {                   
@@ -40,3 +167,9 @@ nav li {
     display: inline-block; 
     font-size: 20px;                    /*displays nav links horizontally*/
 }
+=======
+h5 { 
+  color: hotpink;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+}  
